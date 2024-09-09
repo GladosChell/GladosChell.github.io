@@ -3,13 +3,13 @@
 const myImage = document.querySelector("img");
 myImage.onclick = () => {
   const mySrc = myImage.getAttribute("src");
-  if (mySrc.getItem==="images\profile.jpg"){
-    myImage.setAttribute("src", "images/2.jpg");}
-    else{
-      myImage.setAttribute("src", "images\profile.jpg");
-    }
-
+  if (mySrc === "images/profile.jpg") {
+    myImage.setAttribute("src", "images/2.jpg");
+  } else {
+    myImage.setAttribute("src", "images/profile.jpg");
+  }
 };
+
 let myButton = document.querySelector("button");
 
   
