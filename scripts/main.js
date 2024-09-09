@@ -18,7 +18,7 @@ let myHeading = document.querySelector("h1");
       } else {
         const storedName = localStorage.getItem("name");
       }
-      myHeading.textContent = `I am sos cool, ${localStorage.getItem("name")}`;
+      myHeading.textContent = `I am so cool, ${localStorage.getItem("name")}`;
   };
   function setUserName() {
     const myName = prompt("Please enter your name.");
