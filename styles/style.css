@@ -17,11 +17,11 @@ html {
   
   
   html {
-    background-color: #00539F;
+    background-color: #125497;
   }
   
   body {
-    width: 600px;
+    width: 900px;
     margin: 0 auto;
     background-color: #FF9500;
     padding: 0 20px 20px 20px;
@@ -30,8 +30,8 @@ html {
   
   h1 {
     margin: 0;
-    padding: 20px 0;
-    color: #00539F;
+    padding: 45px 0;
+    color: #e3f2ff;
     text-shadow: 3px 3px 1px black;
   }
   
